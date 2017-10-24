@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     List<PageItem> items = new ArrayList<>();
 
     {
+        items.add(new PageItem(R.layout.rect,"drawRect"));
+        items.add(new PageItem(R.layout.circle,"drawCircle"));
         items.add(new PageItem(R.layout.color,"drawColor"));
     }
 

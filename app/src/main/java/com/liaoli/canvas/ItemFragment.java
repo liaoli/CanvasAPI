@@ -66,7 +66,6 @@ public class ItemFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         TextView tv = getView().findViewById(R.id.tv);
-
         tv.setText(mParam2);
 
         ViewStub viewStub = getView().findViewById(R.id.practice);
