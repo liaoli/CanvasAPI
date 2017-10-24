@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        items.add(new PageItem(R.layout.arc,"CanvasDrawArc"));
         items.add(new PageItem(R.layout.round_rect,"DrawRoundRect"));
         items.add(new PageItem(R.layout.line,"DrawLine"));
         items.add(new PageItem(R.layout.oval,"DrawOval"));
