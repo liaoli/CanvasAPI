@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * TODO: document your custom view class.
+ * @author liaoli
  */
 public class CanvasDrawCircle extends View {
 
