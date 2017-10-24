@@ -2,9 +2,7 @@ package com.liaoli.canvas.api;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
@@ -36,7 +34,6 @@ public class CanvasOval extends View {
         RectF rect = new RectF(300,300,800,600);
 
         canvas.drawOval(rect,paint);
-
 
         paint.setStyle(Paint.Style.STROKE);
 
