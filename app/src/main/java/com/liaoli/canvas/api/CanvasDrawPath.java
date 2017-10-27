@@ -55,14 +55,22 @@ public class CanvasDrawPath extends View {
 
         Path path2 = new Path();
 
-        path2.addCircle(300,1000,100, Path.Direction.CCW);
+        path2.addCircle(300,800,100, Path.Direction.CCW);
 
-        path2.addCircle(370,1000,100, Path.Direction.CCW);
+        path2.addCircle(370,800,100, Path.Direction.CCW);
 
         Paint paint1 = new Paint();
 
         canvas.drawPath(path2,paint1);
 
+        Path path3 = new Path();
+
+        path2.addCircle(300,1000,100, Path.Direction.CCW);
+
+        path2.addCircle(370,1000,100, Path.Direction.CCW);
+
+        paint1.setStyle(Paint.Style.STROKE);
+        canvas.drawPath(path3,paint1);
     }
 
 }
