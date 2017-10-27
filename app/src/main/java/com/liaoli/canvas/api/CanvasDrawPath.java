@@ -83,11 +83,13 @@ public class CanvasDrawPath extends View {
 
 
         Path path5 = new Path();
+        path5.moveTo(0,1000);
         path5.lineTo(400,1300);
         RectF rectF = new RectF(600,1300,900,1500);
         path5.arcTo(rectF,-90,90,true);
 
         Paint paint2 = new Paint();
+        paint2.setStyle(Paint.Style.STROKE);
         canvas.drawPath(path5,paint2);
 
 
