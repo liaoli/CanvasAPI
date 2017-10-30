@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        items.add(new PageItem(R.layout.pie_chat,"CanvasDrawPieChat"));
         items.add(new PageItem(R.layout.text,"CanvasDrawText"));
         items.add(new PageItem(R.layout.bitmap,"CanvasDrawBitmap"));
         items.add(new PageItem(R.layout.path_filltype,"CanvasPathtFillType"));
