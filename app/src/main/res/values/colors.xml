@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="live_pager_line_color">#f2f2f2</color>
+    <color name="main_indicator_text_normal_color">#A9A9A9</color>
+    <color name="main_indicator_text_selected_color">#E41F64</color>
+    <color name="main_indicator_bg_color">#ffffff</color>
+    <color name="main_indicator_color">#E41F64</color>
 </resources>

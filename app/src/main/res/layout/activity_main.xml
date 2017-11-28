@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ff4456"
     tools:context="com.liaoli.canvas.MainActivity">
 
+    <com.liaoli.canvas.view.ViewPagerIndicator
+        android:id="@+id/live_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:background="@color/main_indicator_bg_color"
+        android:orientation="horizontal"
+        app:indicator_color="@color/main_indicator_color"
+        app:item_count="4"
+        app:text_normal_color="@color/main_indicator_text_normal_color"
+        app:text_selected_color="@color/main_indicator_text_selected_color">
+
+    </com.liaoli.canvas.view.ViewPagerIndicator>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -14,4 +30,4 @@
 
     </android.support.v4.view.ViewPager>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
